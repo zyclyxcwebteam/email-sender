@@ -93,6 +93,7 @@ app.post('/contact', upload.single(''), function (req, res) {
     });
 
     const mailOption = {         
+        from: 'sandeep.reddy@zyclyx.com',
         to: 'sandeep.reddy@zyclyx.com',
         subject: 'New Job Application',
         // text: 'Name : ' + name + '\n' + 'Email : ' + email + '\n' + 'Phone : ' + phone + '\n' + 'Subject : ' + subject + '\n' + 'Message : ' + message + '\n',
